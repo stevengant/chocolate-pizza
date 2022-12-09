@@ -1,0 +1,10 @@
+* {
+  list-style: none;
+
+}
+
+section {
+  background-color: red;
+  background-repeat: repeat-x;
+}
+
