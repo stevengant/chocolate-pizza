@@ -1,0 +1,115 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#textLogo p {
+  font-size: .7em;
+  margin: 0px;
+}
+
+#textLogo h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 2.4em;
+  margin: 0px;
+}
+
+#logo {
+  padding: 0px;
+  margin: 0px;
+}
+
+#logo li{
+  padding-right: 10px;
+}
+
+#social li {
+  padding-left: 2px;
+}
+
+#pint {
+  padding-right: 5px;
+}
+section {
+  /* background-color: red; */
+  /* background-repeat: repeat-x; */
+}
+
+.bar {
+  margin-top: 10px;
+  background-image: url(img/hr-img.png);
+  background-repeat: repeat-x;
+}
+
+#openning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+#artTitle h1{
+  font-family: "Sofia", sans-serif;
+  font-size: 2.4em;
+  margin: 0px;
+}
+
+#artTitle p {
+  font-size: .8em;
+  margin: 0px;
+}
+
+#openning div{
+  width:fit-content;
+  height:fit-content;
+  margin-top: 53px;
+  /* border: 2px solid black; */
+}
+
+#pizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+body{
+  width: 901px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indent{
+  text-indent: 20px;
+}
+
+form{
+  background-image: url(img/list-bg.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  border: hidden;
+}
+
+/* input:checked{
+  text-decoration: line-through;
+  
+} */
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+} 
